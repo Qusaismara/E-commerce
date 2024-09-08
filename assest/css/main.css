@@ -101,6 +101,117 @@ font-weight: 600;
 
         }
     }
+    .testimonials{
+        background-color: white;
+        padding: 50px 0;
+
+
+    }
+.testimonials h2{
+    text-align: center;
+}
+.testimonials .row{
+    justify-content: center;
+   gap:40px;
+}
+.testimonials .testimonial
+{
+    padding: 30px;
+    box-sizing:border-box ;
+box-shadow: 0px 8.24px 8.24px 0px #0000001A;
+width: calc( ( 100% - 40px)/2);
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap:12px;
+position: relative;
+
+}
+.testimonials .testimonial::after{
+    content: '';
+    position: absolute;
+   border-top:40px solid  #F4F4F4;
+   border-bottom:40px solid transparent ; 
+   border-left:40px solid  transparent; 
+   border-right:40px solid #F4F4F4; 
+   right: 0;
+   top: 0;
+}
+
+.testimonials .testimonial .user-info {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+.testimonials .testimonial .user-info img{
+    width: 40px;
+  height: 40px;
+    border-radius: 50%;
+}
+.testimonials .testimonial .user-data{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+.testimonials .testimonial .user-data span{
+   color:#969696;
+}
+.testimonials .testimonial .rating{
+   display: flex;
+   gap:8px; 
+}
+
+.testimonials .testimonial .rating img{
+width:20px;
+
+}
+.testimonials .testimonial blockquote q{
+    color:#646464;
+}
+@media  screen and ( max-width: 620px ){ 
+    .testimonials .row{
+        flex-direction: column;
+     
+    
+}
+.testimonials .testimonial{
+width: 100%;
+
+
+}
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  .footer{
   background-color: #393E46;
   color: white;
