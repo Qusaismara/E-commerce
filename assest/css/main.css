@@ -3,7 +3,7 @@
 
 body{
 height: 2000px;
-background-color: aqua;
+
 
 }
 a{
@@ -101,6 +101,132 @@ font-weight: 600;
 
         }
     }
+
+.right-course{
+   background-color: white; 
+}
+.right-course .start-rightcourse{
+   width: 50%; 
+   display: flex;
+   flex-direction: column;
+   gap:20px;
+   flex-wrap: wrap;
+}
+
+.right-course  img{
+   
+   width: 50%;
+}
+
+.right-course .start-rightcourse .p1{
+font-family: var(--subFoint);
+color: var(--maincolor);
+}
+.right-course .start-rightcourse .p1 span{
+  font-weight: 700;
+    }
+    .right-course .start-rightcourse .p2{
+        font-family: var(--mainFoint);
+        color: #969696;
+
+
+    }
+
+    .right-course .start-rightcourse h2{
+    font-size: 90px;
+    font-weight: 700;
+    font-family: var(--mainFoint);
+
+
+    }
+    .right-course .start-rightcourse h2 span{
+        color:var(--maincolor)
+
+    }
+
+    .right-course .start-rightcourse .reg-play{
+       display: flex;
+       gap:27px;
+       font-family: var(--subFoint); 
+       font-weight: 600;
+       
+    }
+
+     .right-course .start-rightcourse .reg-play .register{
+        border: 1px solid var(--maincolor);
+        background-color: var(--maincolor);
+        color: white;
+        width: 120px;
+        padding: 5px 0;
+        border-radius: 7px;
+        text-align: center;
+      
+        }
+        .right-course .start-rightcourse .reg-play .play{
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+         gap: 5px;
+         
+
+        }
+     
+      @media  screen and (max-width:1100px){
+        .right-course .row{
+            flex-direction: column;
+            gap: 15px;
+        }
+        .right-course .start-rightcourse h2{
+            font-size: 50px;
+            
+        
+        
+            }
+        
+      }            
+      @media  screen and (max-width:630px){
+        .right-course .start-rightcourse h2{
+            font-size: 40px;
+            
+        
+        
+            }
+            .right-course .start-rightcourse .reg-play{
+                flex-direction: column;
+            }
+
+        
+      }         
+      @media  screen and (max-width:510px){
+        .right-course .start-rightcourse h2{
+            font-size: 30px;
+            
+        
+        
+            }} 
+            @media  screen and (max-width:410px){
+                .right-course .start-rightcourse{
+                    gap:1px;
+                }    
+                .right-course .start-rightcourse h2{
+                    font-size: 20px;
+                   } 
+                   .right-course .start-rightcourse .p2{
+                    font-size: 10px;
+                   }
+                
+                    
+            } 
+        
+
+
+
+
+
+
+
+
+
     .testimonials{
         background-color: white;
         padding: 50px 0;
@@ -109,10 +235,12 @@ font-weight: 600;
     }
 .testimonials h2{
     text-align: center;
+    margin: 16px 0;
 }
 .testimonials .row{
     justify-content: center;
    gap:40px;
+   margin-bottom:64px;
 }
 .testimonials .testimonial
 {
