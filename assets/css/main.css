@@ -1,0 +1,26 @@
+
+@import './base.css';
+
+main{
+    display: flex;
+flex-direction: column;
+gap: 50px;
+
+}
+ .categories .row{
+
+    gap:10px;
+ }
+.categorie{
+text-align: center;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 4px 8pc rgba(0,0,0,0.1);
+ 
+}
+
+.product{
+text-align: center;
+
+
+}
